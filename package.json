@@ -15,5 +15,26 @@
   "bugs": {
     "url": "https://github.com/guitarbeard/voting-client/issues"
   },
-  "homepage": "https://github.com/guitarbeard/voting-client"
+  "homepage": "https://github.com/guitarbeard/voting-client",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "chai": "^3.4.1",
+    "chai-immutable": "^1.5.3",
+    "jsdom": "^7.0.2",
+    "mocha": "^2.3.4",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "dependencies": {
+    "immutable": "^3.7.5"
+  }
 }
